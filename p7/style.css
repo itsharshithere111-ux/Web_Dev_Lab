@@ -1,0 +1,53 @@
+/* Some Design Tokens we'll use */
+:root {
+    --primary-color: #2563eb;
+    --secondary-color: #64748b;
+    --background-color: #f1f5f9;
+    --text-color: #1e293b;
+
+    --small-space: 10px;
+    --medium-space: 20px;
+    --large-space: 30px;
+
+    --heading-size: 32px;
+    --body-size: 16px;
+
+    --card-radius: 10px;
+}
+
+/* Basic Styling used in this CSS */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: var(--body-size);
+}
+
+/* Heading Typography */
+h1 {
+    font-size: var(--heading-size);
+    color: var(--primary-color);
+}
+
+p {
+    line-height: 1.6;
+    color: var(--secondary-color);
+}
+
+/* Card Styling */
+.card {
+    background-color: white;
+    padding: var(--large-space);
+    margin: var(--medium-space);
+    border-radius: var(--card-radius);
+}
+
+/* Button Styling */
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: var(--small-space);
+    border: none;
+    border-radius: 5px;
+}
